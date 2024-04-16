@@ -23,7 +23,7 @@ jobs:
       # - name: Test
       #   run: npm test
       - name: Release
-        uses: cycjimmy/semantic-release-action@v3
+        uses: cycjimmy/semantic-release-action@v4
         id: semantec-release
         # with:
         #   semantic_version: 17
